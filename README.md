@@ -1,8 +1,11 @@
 # Goodnotes4 Custom Template
 
-## Without Download
+## No Download
 
-**If you don't want to download anything**, just refer to [this gist](https://gist.github.com/ysBach/32528b85a9bb793463d9581a32ac0efa), or the ``examples`` directory of this repo.
+**If you don't want to download anything**,
+
+*  just refer to [this gist](https://gist.github.com/ysBach/32528b85a9bb793463d9581a32ac0efa), or 
+* see the ``examples`` directory of this repo.
 
 
 
@@ -11,6 +14,18 @@
 If you want to download this package, do ``git clone`` first, and then do the installation by ``python3 setup.py install``.
 
 Then refer to the example below.
+
+
+
+## How to add template to Goodnotes4?
+
+Refer to the [official website](https://goodnotes.zendesk.com/hc/en-us/articles/202167785-How-to-add-custom-templates-). Summary:
+
+1. Upload your file to your drive (e.g., Google Drive or One Drive)
+2. Turn on Goodnotes4
+3. `Options` (bottom right) -> `Template Library` 
+4. `+` (top left) -> add a folder and tap that folder 
+5. `Edit` (top right) -> `+` (top left) -> import the pdf file you generated.
 
 
 
