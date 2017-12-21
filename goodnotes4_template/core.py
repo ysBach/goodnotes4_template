@@ -1,3 +1,6 @@
+import numpy as np
+
+__all__ = ["mm2in", "AxPaperHW", "BxPaperHW", "figure_size"]
 
 def mm2in(x):
     ''' Changes mm unit to inch.
@@ -35,3 +38,13 @@ def BxPaperHW(x, rounding=True):
         width = round(width)
         
     return height, width 
+
+def figure_size(paper_type='A', paper_size=4):
+    if paper_type.upper() == 'A':
+        figsize = mm2in(np.array(AxPaperHW(int(paper_size))))[::-1]
+    elif paper_type.upper() == 'B':
+        figsize = mm2in(np.array(BxPaperHW(int(paper_size))))[::-1]
+    else:
+        raise ValueError("Paper type not understood.")
+
+    return figsize
