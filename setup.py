@@ -9,5 +9,5 @@ setup(
     license="",
     keywords="",
     url="",
-    packages=['goodnotes4_template', 'goodnotes4_template.papers'],
+    packages=['goodnotes4_template'],
     requires=['matplotlib'], )

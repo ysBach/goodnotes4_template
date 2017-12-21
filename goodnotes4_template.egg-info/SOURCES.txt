@@ -5,5 +5,3 @@ goodnotes4_template.egg-info/PKG-INFO
 goodnotes4_template.egg-info/SOURCES.txt
 goodnotes4_template.egg-info/dependency_links.txt
 goodnotes4_template.egg-info/top_level.txt
-goodnotes4_template/papers/ISOpapers.py
-goodnotes4_template/papers/__init__.py
