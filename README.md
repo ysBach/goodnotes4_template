@@ -2,7 +2,7 @@
 
 ## Without Download
 
-**If you don't want to download anything**, just refer to [this gist](https://gist.github.com/ysBach/32528b85a9bb793463d9581a32ac0efa). 
+**If you don't want to download anything**, just refer to [this gist](https://gist.github.com/ysBach/32528b85a9bb793463d9581a32ac0efa), or the ``examples`` directory of this repo.
 
 
 
